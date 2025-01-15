@@ -51,7 +51,7 @@
 // +------------------------------------------------------------------------------------+
             bindings = <
    &kp TAB   &kp SEMI   &kp COMMA &kp DOT &kp P &kp Y   &kp F &kp G  &kp C   &kp R   &kp L &kp BSPC
-   &td_caps  &kp A      &kp O     &kp E   &kp U &kp I   &kp D &kp H  &kp T   &kp N   &kp S &kp DEL
+   &td_caps  &kp A      &kp O     &kp E   &kp U &kp I   &kp D &kp H  &kp T   &kp N   &kp S &kp RSHIFT
    &kp LCTRL &kp SQT    &kp Q     &kp J   &kp K &kp X   &kp B &kp M  &kp W   &kp V   &kp Z &kp ESC
                   &kp LGUI &mo LOWER &kp SPACE   &kp RET &mo RAISE  &kp RALT
                         >;
@@ -66,7 +66,7 @@
 // +------------------------------------------------------------------------------------+
                 bindings = <
    &kp TAB    &kp N1     &kp N2     &kp N3       &kp N4 &kp N5  &kp N6      &kp N7     &kp N8   &kp N9      &kp N0 &kp BSPC
-   &td_caps   &kp F1     &kp F2     &kp F3       &kp F4 &kp F5  &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &trans &trans
+   &td_caps   &kp F1     &kp F2     &kp F3       &kp F4 &kp F5  &kp LEFT    &kp DOWN   &kp UP   &kp RIGHT   &trans &kp DEL
    &kp LCTRL  &kp F6     &kp F7     &kp F8       &kp F9 &trans  &trans      &kp F10    &kp F11  &kp F12     &trans &trans
                             &kp LGUI  &trans  &kp SPACE &kp RET &mo MEDIA   &kp RALT
                         >;
